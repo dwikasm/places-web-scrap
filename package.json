@@ -1,0 +1,26 @@
+{
+  "name": "places-web-scrap",
+  "version": "1.0.0",
+  "description": "Personal web scrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwikasm/places-web-scrap.git"
+  },
+  "author": "Dwika",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dwikasm/places-web-scrap/issues"
+  },
+  "homepage": "https://github.com/dwikasm/places-web-scrap#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bull": "^3.12.1",
+    "cheerio": "^1.0.0-rc.3",
+    "nodemon": "^2.0.2"
+  }
+}
